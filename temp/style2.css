@@ -1,0 +1,277 @@
+
+
+.dest-thumbnail
+{
+
+  width:95%;
+  padding:2px 0px;
+  clear:both;
+  margin-left: 0px;
+  background: none !important;
+}
+
+
+.dest-thumbnail ul li
+{
+  list-style-type: none;
+  float: left;
+  position:relative;
+  padding:10px;
+  margin:2px;
+
+}
+
+.dest-thumbnail ul li img
+{
+  width:230px;
+  height:160px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+
+}
+.dest-thumbnail ul li span
+{
+  color:#d9d9d9;
+  font-size: 18px;
+  text-shadow: 1px 2px 2px #f2f2f2;
+  text-align: center;
+  text-decoration-style: solid;
+  position:absolute;
+  top:110px;
+  left:85px;
+  text-align: center;
+  z-index:2;
+
+}
+
+.dest-thumbnail ul li:hover > span
+{
+  top:55px;
+  color:#2e2e1f;
+  text-decoration-style: solid;
+  font-size: 18px;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+  text-shadow: 3px 2px 3px #ffff80;
+
+}
+
+.dest-thumbnail ul li:hover > button
+{
+
+  display:block;
+  color: #b3ffff;
+  text-decoration: none;
+
+}
+.dest-thumbnail ul li button
+{
+  position:absolute;
+  text-decoration: none;
+  bottom:60px;
+  left:85px;
+  z-index:2;
+  display:none;
+}
+ul li:hover > span
+{
+top:53px;
+}
+
+button a
+{
+  color: #00264d;
+  text-decoration: none;
+}
+
+.destinationButton ul li button a
+{
+  color: #f9ffe6;
+  text-decoration: none;
+}
+
+
+.destinationButton button
+{
+display: block;
+margin: 0 auto;
+}
+
+button a:hover
+{
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.social li {
+  list-style-type: none;
+  background: none repeat scroll 0 0 #337ab7;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #00264d;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+
+
+
+
+.footer {
+  text-align: center;
+  color:#001a4d;
+  margin-right: 0px;
+	background: #e6eeff;
+	height: 50px;
+	padding-bottom: 30px;
+  padding-top: 10px;
+	position:absolute;
+	width: 98%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+
+
+.w3-hover-grayscale
+{
+  height: 50%;
+  width: 100%;
+}
+
+.contract{
+  color:#fff;
+  background-color: #001a4d;
+  margin: 10px;
+  padding: 10px 10px;
+  height: 50%;
+  width: 100%;
+}
+
+.center-horizontal-align img
+{
+  display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team
+{
+background-color: #000000;
+opacity: 0.8;
+color: #fff;
+  text-align: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px 200px;
+}
+
+
+.blog-thumbnail
+{
+
+  width:95%;
+  padding:2px 0px;
+  clear:both;
+  margin-left: 0px;
+  background: none !important;
+}
+
+
+.blog-thumbnail ul li
+{
+  list-style-type: none;
+  float: left;
+  position:relative;
+  padding:10px;
+  margin:2px;
+
+}
+
+.blog-thumbnail ul li img
+{
+  width:230px;
+  height:160px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+
+}
+.blog-thumbnail ul li span
+{
+  color:#d9d9d9;
+  font-size: 18px;
+  text-shadow: 1px 2px 2px #f2f2f2;
+  text-align: center;
+  text-decoration-style: solid;
+  position:absolute;
+  top:110px;
+  left:85px;
+  text-align: center;
+  z-index:2;
+
+}
+
+.blog-thumbnail ul li:hover > span
+{
+  top:30px;
+  color:#2e2e1f;
+  text-decoration-style: solid;
+  font-size: 18px;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+  text-shadow: 3px 2px 3px #ffff80;
+
+}
+
+.blog-thumbnail ul li:hover > button
+{
+
+  display:block;
+  color: #b3ffff;
+  text-decoration: none;
+
+}
+.blog-thumbnail ul li button
+{
+  position:absolute;
+  text-decoration: none;
+  bottom:60px;
+  left:85px;
+  z-index:2;
+  display:none;
+}

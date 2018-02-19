@@ -1,0 +1,6 @@
+.contract a{align-items: center;width: 20%;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;border-radius:2px;display:block;background-color:rgba(255,255,255,0.25);font-size:20px;text-align:center;color:#fff;padding:7px}
+.contract a:hover{background-color:rgba(255,255,255,0.85);text-decoration:none;color:#001a4d;}
+.contract a.skype:hover,.fa-skype{color:#00aff0}
+.contract a.google:hover,.fa-google-plus{color:#dd4b39}
+.contract a.linkedin:hover,.fa-linkedin{color:#0e76a8}
+.contract a.instagram:hover,.fa-fa-instagram{color:#00acee}

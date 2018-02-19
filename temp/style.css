@@ -1,0 +1,157 @@
+.jumbotronx {
+  background-image: url("bg1.jpg");
+
+  color: white;
+}
+
+.well-lg
+{
+  height: 250px;
+  background-color:  #0039e6;
+  color: white;
+}
+
+th
+{ background-color: #2b4675;
+  text-align: center;
+  color: #FFFFFF;
+}
+td
+{
+  text-align: center;
+	color: #003399;
+}
+ul.comments
+{
+list-style-type: none;
+}
+
+ul.comments li
+{
+  display: block;
+  margin: 20px 2px;
+  position: relative;
+}
+ul.comments li a
+{
+  text-decoration: none;
+  font-size:18px;
+  color:green ;
+}
+
+span.userinfo
+{
+  display: none;
+  background-color:#c7d3e5;
+  opacity: 0.7;
+}
+
+ul.comments li a:hover  span
+{
+  display:block;
+  background-color: #d9fcb8;
+  border-width: 2px;
+  border-color: #aaf442;
+  padding:20px;
+  border-radius: 10px;
+  position:absolute;
+  top:-50px;
+  opacity: 0.5;
+
+}
+
+.large
+{
+  font-size: 18px;
+}
+
+.small
+{
+  font-size: 14px;
+}
+
+div.freeTripPlaning
+{
+  color: #002266;
+  background-image: url("tripPlaning.jpg");
+
+  /*text-shadow: 2px 2px #e6f7ff; */
+  text-align: center;
+  text-decoration-color:#00334d;
+  opacity: 0.9;
+  border-style:double;
+  border-color: #002266;
+  border-spacing: 1px;
+  padding:0px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.formbody
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+}
+
+div.home-carousel
+{
+  height: 500px;
+  width: 400px;
+
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: 480px;
+max-width: 200%;
+line-height: 1;
+margin: 0 auto;
+width: 100%; // Add this
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: green;
+  background-color: #000;
+  border-color: #ddd;
+}
+.formHeader
+{
+
+  background-color:#00264d;
+  color:#fff;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: full-width;
+  padding : 5px;
+  margin: 0;
+  width:100%;
+  text-decoration: none;
+}
+
+
+div.lower
+{
+background-image: url("tripPlaning.jpg");
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+div.carosel
+{
+  height:300px;
+  margin:5px auto;
+}
+
+
+.invisible
+{
+	overflow: hidden;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}

@@ -1,0 +1,68 @@
+.jumbotronx {
+  background-image: url("bg1.jpg");
+
+  color: white;
+}
+
+.well-lg
+{
+  height: 250px;
+  background-color:  #0039e6;
+  color: white;
+}
+
+th
+{ background-color: #2b4675;
+  text-align: center;
+  color: #FFFFFF;
+}
+td
+{
+  text-align: center;
+	color: #003399;
+}
+ul.comments
+{
+list-style-type: none;
+}
+ul.comments li
+{
+  display: block;
+  margin: 50px 2px;
+  position: relative;
+}
+ul.comments li a
+{
+  text-decoration: none;
+  font-size:18px;
+  color:orange;
+}
+
+span.userinfo
+{
+  display: none;
+  background-color:#c7d3e5;
+  opacity: 0.9;
+}
+
+ul.comments li a:hover  span
+{
+  display:block;
+  background-color: #c7d3e5;
+  padding:20px;
+  border-radius: 10px;
+  position:absolute;
+  top:-100px;
+  opacity: 0.9;
+
+}
+
+.large
+{
+  font-size: 18px;
+}
+
+.small
+{
+  font-size: 14px;
+}
